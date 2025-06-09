@@ -32,6 +32,22 @@ int main()
     
     printf("\n \nTABLA DE IMC \nPeso bajo: menor a 18.5 \nPeso Normal: entre 18.5 y 24.9 \nSobrepeso: entre 25 y 29.9 \nObesidad: de 30 en adelante");
 
+    //Tp4 punto 3
+    if (IMC <18.5) {
+        printf(“Usted se encuentra en: Peso bajo”);
+    }
+
+    else if ((IMC >18.5) && (IMC <=24.9) {
+	    printf(“Usted se encuentra en: Peso normal”);
+    }
+
+    else if ((IMC >=25) && (IMC<=29.9)) {
+	    printf(“Usted se encuentra en: Sobrepeso”);
+    }
+
+    else if (IMC <30) {
+	    printf(“Usted se encuentra en: Obesidad”);
+    }
 
     return 0;
 }
