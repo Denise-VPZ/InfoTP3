@@ -34,19 +34,19 @@ int main()
 
     //Tp4 punto 3
     if (IMC <18.5) {
-        printf(“Usted se encuentra en: Peso bajo”);
+        printf("Usted se encuentra en: Peso bajo");
     }
 
     else if ((IMC >18.5) && (IMC <=24.9) {
-	    printf(“Usted se encuentra en: Peso normal”);
+	    printf("Usted se encuentra en: Peso normal");
     }
 
     else if ((IMC >=25) && (IMC<=29.9)) {
-	    printf(“Usted se encuentra en: Sobrepeso”);
+	    printf("Usted se encuentra en: Sobrepeso");
     }
 
     else if (IMC <30) {
-	    printf(“Usted se encuentra en: Obesidad”);
+	    printf("Usted se encuentra en: Obesidad");
     }
 
     return 0;
