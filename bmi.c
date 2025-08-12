@@ -18,26 +18,49 @@ IMC = peso (en kg) / (estatura (en m))^2
 int main()
 {
     float x, y;
-    printf("Ingrese su peso en kg:");
+
+    while (1){    
+    printf("Ingrese su peso en kg: \n");
     scanf("\n %f", &x);
-    printf("\nSu peso es: %.2f", x);
-    printf("\nIngrese su altura en metros:");
-    scanf("\n %f", &y);
-    printf("\nSu altura es: %.2f", y);
     
+    //tp5 punto 2
+    if (x<0) {
+        printf("El numero ingresado no es valido. \n");
+        continue;
+    }
+    else {   
+        printf("\nSu peso es: %.2f", x);
+        break;
+    }
+    }
+ 
+    while (1){
+    printf("\nIngrese su altura en metros: \n");
+    scanf("\n %f", &y);
+
+    if (y<0) {
+        printf("El numero ingresado no es valido. \n");
+        continue;
+    }
+    else {    
+        printf("\nSu altura es: %.2f", y); 
+        break;
+    }
+    }
+ 
     float hcuadrado= y*y;
     float IMC= x/hcuadrado;
     
     printf("\nSu IMC es: %f", IMC);
     
-    printf("\n \nTABLA DE IMC \nPeso bajo: menor a 18.5 \nPeso Normal: entre 18.5 y 24.9 \nSobrepeso: entre 25 y 29.9 \nObesidad: de 30 en adelante");
+    printf("\n \nTABLA DE IMC \nPeso bajo: menor a 18.5 \nPeso Normal: entre 18.5 y 24.9 \nSobrepeso: entre 25 y 29.9 \nObesidad: de 30 en adelante\n");
 
     //Tp4 punto 3
     if (IMC <18.5) {
         printf("Usted se encuentra en: Peso bajo");
     }
 
-    else if ((IMC >18.5) && (IMC <=24.9) {
+    else if ((IMC >18.5) && (IMC <=24.9)) {
 	    printf("Usted se encuentra en: Peso normal");
     }
 
