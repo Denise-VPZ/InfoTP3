@@ -15,3 +15,6 @@ Su índice de masa corporal es: 22.31‬
 -----------------TP5-----------------------
 ‭2. Usando el sistema de control de versiones, modificar el programa del TP3 para que no se permita 
 el ingreso de números negativos, mostrando un mensaje y volviendo a preguntar.
+------------------TP6----------------------
+2. Agregar este programa al sistema de control de versiones usando como nombre tp6.c y
+cambiar el nombre del archivo del TP3 a tp3.c
