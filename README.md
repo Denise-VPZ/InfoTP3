@@ -19,3 +19,6 @@ el ingreso de números negativos, mostrando un mensaje y volviendo a preguntar.
 ------------------TP6----------------------
 2. Agregar este programa al sistema de control de versiones usando como nombre tp6.c y
 cambiar el nombre del archivo del TP3 a tp3.c
+
+------------------TP7----------------------
+2. Agregar este programa al sistema de control de versiones usando como nombre tp7.c.
